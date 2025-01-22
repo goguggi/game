@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(125deg,black,#99f2c8); /*선형*/
+}
+
+section {
+    display: flex;
+    flex-direction: column; /*섹션을 수직으로 배치*/
+    align-items: center;
+
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.box1 {
+    color: white;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.box2 {
+    margin-bottom: 50px;
+}
+.box3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.box4 {
+    margin-bottom: 50px;
+}
+.box4 .btn-go {
+    font-size: 50px;
+    width: 300px;
+    height:80px;
+    outline: none;
+    border: none;
+    background-color: beige;
+    border-radius: 15px;
+}
+.box5 .btn-reset {
+    font-size: 50px;
+    width: 300px;
+    height: 80px;
+    outline: none;
+    border: none;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+.btn-reset:hover,
+.btn-go:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.result {
+    width: 300px;
+    height: 50px;
+    background-color: thistle;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.box2 input {
+    text-align: center;
+    height: 50px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
